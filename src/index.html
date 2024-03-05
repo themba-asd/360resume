@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="print.css">
+  <title>QuickResume</title>
+</head>
+
+<body>
+  <main contenteditable="">
+    <header>
+      <p id="title">SURNAME FIRSTNAME</p>
+      <div class="contacts">
+        <p class="phone">012 345 6789</p>
+        <p class="email">your.email.example.com</p>
+        <p class="address">Suburb, City, Postal code</p>
+      </div>
+    </header>
+    <section class="summary">
+      <h3>Summary</h3>
+      <p>
+        Tell us about yourself, a brief statement highlighting your career aspirations and skills that are directly
+        relevant to the job you're applying for. Use keywords from the job description to match requirements.
+        Mention your most notable accomplishments, relevant certifications, or qualifications. Click anywhere on this
+        text to change or remove it.
+      </p>
+    </section>
+    <section>
+      <h3>Education</h3>
+      <div class="education">
+        <p class="school-name">Lakepark High School</p>
+        <p>
+          <span class="date">2024</span> |
+          <span class="qualification">Matric</span> -
+          <span class="study">Grade 12</span>
+        </p></br>
+        <p class="school-name">Lakepark College</p>
+        <p>
+          <span class="date">2024</span> |
+          <span class="qualification">Diploma</span> -
+          <span class="study">Bio-Radiology</span>
+        </p>
+      </div>
+      <button class="add-btn" id="education" contenteditable="false">Add school</button>
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <div class="experience">
+        <p>
+          <span class="title">Job title</span> |
+          <span class="date">start date - end date</span>
+        </p>
+        <p>
+          <span class="company">Company Name</span> |
+          <span class="address"> Suburb, City, Postal code</span>
+        </p>
+        <p class="duties">
+          Provide the job duties for example (Welcome and serve customers with friendliness, capture customer details
+          and information on the system.). Click any text on the document to edit or remove it.
+        </p>
+      </div>
+      <button class="add-btn" id="experience" contenteditable="false">Add experience</button>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>Teamwork and collaboration</li>
+        <li>Good communication skills</li>
+        <li>Computer literate</li>
+        <li>Proficiency in design and user experience</li> </br>
+        <li>Click on any text items to change or remove them.</li>
+      </ul>
+      <button class="add-btn" id="skills" contenteditable="false">Add skill</button>
+    </section>
+    <section>
+      <h3>References</h3>
+      <div class="reference">
+        <p>
+          <span class="position">Job title</span> |
+          <span class="fullname">Name of employer/employee</span>
+        </p>
+        <p class="company">Company Name</p>
+        <p class="contacts">012 345 6789</p>
+      </div>
+      <button class="add-btn" id="reference" contenteditable="false">Add reference</button>
+    </section>
+  </main>
+  <div>
+    <button id="download-btn" onclick="window.print();" contenteditable="false">Download</button>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+
+</html>

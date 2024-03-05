@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+@media print {
+    main {
+        margin: 4rem;
+    }
+
+    button,
+    #pop-up-msg {
+        display: none;
+    }
+}
+
+@media (max-width:665px) {
+    main {
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    #download-btn {
+        left: 70%;
+    }
+}

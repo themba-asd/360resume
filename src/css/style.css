@@ -1,0 +1,65 @@
+main {
+  margin: 4rem;
+  padding: 1rem;
+}
+
+#title {
+  padding-bottom: 1rem;
+  font-size: x-large;
+  color: rgb(95, 101, 7);
+}
+
+h3 {
+  padding-top: 1rem;
+  color: rgb(111, 119, 9);
+}
+
+div {
+  padding-block: 0rem 1rem;
+}
+
+li {
+  list-style-position: inside;
+  color: rgb(99, 102, 61);
+}
+
+.duties {
+  padding-top: .2rem;
+}
+
+.company,
+.address {
+  color: rgb(99, 102, 61);
+}
+
+button {
+  border: solid .2rem rgb(95, 101, 7);
+  margin-top: 1rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  background: none;
+  color: black;
+  cursor: pointer;
+}
+
+#download-btn {
+  position: fixed;
+  top: 90%;
+  left: 80%;
+  margin: 0;
+  background: rgb(95, 101, 7);
+  color: #ffffff;
+}
+
+#pop-up-msg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  width: 18rem;
+  background-color: rgba(95, 101, 7, 0.85);
+  font-size: x-large;
+  border-radius: 1rem;
+  color: #ffffff;
+}
