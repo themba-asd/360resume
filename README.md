@@ -4,4 +4,4 @@ After crafting the Resume you can simply print out the document as pdf, and choo
 
 No user information is collect or processed outside the local space at all, as soon as the site has fully loaded everything happens locally.
 
-Visit the site : 360resume.neocities.org
+Visit the site : https://360resume.netlify.app/
