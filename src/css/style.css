@@ -4,14 +4,14 @@ main {
 }
 
 #title {
-  padding-bottom: 1rem;
   font-size: x-large;
+  padding-bottom: 1rem;
   color: rgb(95, 101, 7);
 }
 
 h3 {
-  padding-top: 1rem;
   color: rgb(111, 119, 9);
+  padding-top: 1rem;
 }
 
 div {
@@ -33,13 +33,12 @@ li {
 }
 
 button {
-  border: solid .2rem rgb(95, 101, 7);
-  margin-top: 1rem;
   padding: .5rem;
-  border-radius: 1rem;
-  background: none;
-  color: black;
   cursor: pointer;
+  margin-top: 1rem;
+  background: none;
+  border-radius: 1rem;
+  border: solid .2rem rgb(95, 101, 7);
 }
 
 #download-btn {
@@ -47,19 +46,19 @@ button {
   top: 90%;
   left: 80%;
   margin: 0;
-  background: rgb(95, 101, 7);
   color: #ffffff;
+  background: rgb(95, 101, 7);
 }
 
 #pop-up-msg {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
   width: 18rem;
-  background-color: rgba(95, 101, 7, 0.85);
+  padding: 1rem;
+  color: #ffffff;
   font-size: x-large;
   border-radius: 1rem;
-  color: #ffffff;
+  transform: translate(-50%, -50%);
+  background-color: rgba(95, 101, 7, 0.85);
 }

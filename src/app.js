@@ -14,22 +14,22 @@ const htmlContent = {
                 <span class="fullname">Employer/employee name</span></p>
                 <p class="company">Company name</p>
                 <p class="contacts">Phone</p>`
-}
+};
 //button events
 document.querySelectorAll('.add-btn').forEach((el) => {
     el.addEventListener('click', () => {
-        targetId = el.getAttribute('id')
-        const targetEl = document.querySelector('.'+targetId)
-        targetEl.lastElementChild.insertAdjacentHTML('beforeend', htmlContent[targetId])
-    })
-})
+        attributeId = el.getAttribute('id')
+        const targetEl = document.querySelector('.'+ attributeId)
+        targetEl.lastElementChild.insertAdjacentHTML('beforeend', htmlContent[attributeId])
+    });
+});
 //pop-up message
-function displayPopUpMsg() {
+function popUpMsg() {
     const popUpMsg = document.createElement('p');
         popUpMsg.setAttribute('id', 'pop-up-msg');
         popUpMsg.innerHTML = 'Hi, please note! </br>Every text is editable, click on any text to remove or make changes.';
         document.querySelector('main').append(popUpMsg);
-    setTimeout(() => popUpMsg.remove(), 5000);
+    setTimeout(() => popUpMsg.remove(), 6000);
 };
 
-document.addEventListener('DOMContentLoaded', displayPopUpMsg)
+document.addEventListener('DOMContentLoaded', popUpMsg);
