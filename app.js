@@ -27,9 +27,9 @@ document.querySelectorAll('.add-btn').forEach((el) => {
 function popUpMsg() {
     const popUpMsg = document.createElement('p');
         popUpMsg.setAttribute('id', 'pop-up-msg');
-        popUpMsg.innerHTML = 'Hi, please note! </br>Every text is editable, click on any text to remove or make changes.';
+        popUpMsg.innerHTML = 'Click on any text<br/>to edit or remove';
         document.querySelector('main').append(popUpMsg);
-    setTimeout(() => popUpMsg.remove(), 6000);
+    setTimeout(() => popUpMsg.remove(), 6999);
 };
 
 document.addEventListener('DOMContentLoaded', popUpMsg);

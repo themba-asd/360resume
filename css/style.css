@@ -54,11 +54,10 @@ button {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 18rem;
   padding: 1rem;
   color: #ffffff;
-  font-size: x-large;
+  font-size: larger;
   border-radius: 1rem;
   transform: translate(-50%, -50%);
-  background-color: rgba(95, 101, 7, 0.85);
+  background: rgb(95, 94, 94);
 }
