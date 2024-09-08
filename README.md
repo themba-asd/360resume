@@ -1,7 +1,20 @@
-# 360Resume
-360Resume builder is a free and quick site that makes the hassle of creating a Resume easy and quick, you can quickly create a resume in under 15 minutes. It provides a simple gui and does it's operations locally.
-After crafting the Resume you can simply print out the document as pdf, and choose to save or share it.
+# 360 Resume
 
-No user information is collect or processed outside the local space at all.
+360Resume Builder is a **fast** and **easy** solution for creating a professional resume in minutes. With predefined templates and placeholder text, you can craft a resume in minutes without hassle. Designed with a mobile-first approach, you can access and edit your resume on the go. 
 
-Visit the site : https://360resume.netlify.app/
+## Features
+
+- **Save as PDF**: Utilize the built-in print features to save your resume as a PDF.
+- **Click-to-Edit**: Easily modify or clear any text by clicking on it.
+- **Preview PDF**: Review your resume in PDF format before saving.
+
+## Getting Started
+
+1. **Edit Text**: Click on any text to edit or clear it. Replace the placeholder text with your own information.
+2. **Save as PDF**: Click the download button to access the print dialog, where you can save your resume as a PDF. You can also adjust layout settings such as page margins and colors.
+3. **Preview PDF**: The print dialog provides a preview of your resume in PDF format before saving.
+4. **Add Content**: Click the "Add button" to add additional pre-formatted sections to your resume.
+
+## Contact
+
+For questions, issues, or suggestions, please feel free to contact me.
